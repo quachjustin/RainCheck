@@ -28,6 +28,12 @@ body{
     justify-content: space-between; 
 }
 
+
+/*
+text align center; for making search bar words in middle
+*/
+
+
 .search > input {
     text-align: center;
 }
