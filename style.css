@@ -26,7 +26,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    
+}
+
+.search > input {
+    text-align: center;
 }
 
 .search input {
