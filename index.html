@@ -29,7 +29,9 @@
         </div>
         <div class="col">
           <img src="images/wind.png">
+          <break></break>
           <div>
+            <break></break>
             <p class="wind">15 KM/H</p>
             <p>Speed</p>
           </div>
@@ -38,7 +40,21 @@
     </div>
   </div>
 
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+  <script>
+    const apiKey = "049695594487572644ecddeba4c63d89";
+    const apiUrl = "https://api.openweathermap.org/data/2.5/weather?=units=metric&q=Brooklyn";
+
+    async function checkWeather(){
+      const response = await fetch(apiUrl + `&appid=${apiKey}`);
+      var data = await response.json();
+
+      console.log(data);
+    }
+
+  checkWeather();
+  </script>
+
+
+
   </body>
 </html>
