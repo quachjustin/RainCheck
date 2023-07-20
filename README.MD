@@ -1,5 +1,3 @@
-#Weather App
+weatherapp
 vite js
 openweathermap
-
-
