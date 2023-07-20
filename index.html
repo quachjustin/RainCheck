@@ -65,7 +65,7 @@
       document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
       //changes image according to what the actual weather is
-      if(data.weather[0].main == "Clouds") {
+      if(data.weather[0].main== "Clouds") {
         weatherIcon.src = "images/clouds.png";
       }
       else if(data.weather[0].main == "Clear") {
