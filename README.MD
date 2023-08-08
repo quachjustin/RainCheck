@@ -1,2 +1,2 @@
-Simple Weather App using OpenWeatherMap
+Simple Weather App using OpenWeatherMap #WeatherWhimsy
 
