@@ -1,2 +1,1 @@
-Simple Weather App using OpenWeatherMap #WeatherWhimsy
-
+Weather application to share weather data #WeatherWhimsy
