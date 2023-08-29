@@ -1,1 +1,1 @@
-Weather application to share weather data #WeatherWhimsy
+Weather application to share weather data #RainCheck
